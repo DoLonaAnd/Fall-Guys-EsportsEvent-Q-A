@@ -14,8 +14,8 @@ function QAindextemplate(num){
     return words;
 }
 function QAtemplate(num){
-    let words1 = '<div id = "Q'+num+'">'+qalist[0][num]+'</div>'
-    ,words2 = '<div id = "A'+num+'">'+qalist[1][num]+'</div>';
+    let words1 = '<div id = "Q'+num+'">Q. '+qalist[0][num]+'</div>'
+    ,words2 = '<div id = "A'+num+'">A. '+qalist[1][num]+'</div>';
     return words1 + words2;
 }
 
