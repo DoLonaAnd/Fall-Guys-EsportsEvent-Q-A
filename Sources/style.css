@@ -2,6 +2,25 @@ body{
     background-color: #99AAD2;
 }
 
+#header{
+    margin-top: -20px;
+    margin-left:-10px;
+    margin-right: -10px;
+    background-color: #FFFFFF88;
+}
+
+#alert{
+    text-align:center;
+    margin-bottom: -10px;
+}
+
+#pagetitle{
+    text-align: center;
+    margin-bottom: -10px;
+    font-family: Arial;
+    font-size:3em;
+}
+
 #index{
     margin-left:20px;
     margin-bottom: -10px;
