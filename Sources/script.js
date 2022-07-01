@@ -24,7 +24,7 @@ const index = [
 
 //生成テンプレート
 function indextemplate(num){
-    let words = '<div class="index"'+num+'><a href='+index[0][num]+'>'+index[1][num]+'</a></div>';
+    let words = '<div class="index"'+num+'><a href='+index[0][num]+'head>'+index[1][num]+'</a></div>';
     return words;
 }
 function QAindextemplate(num){
