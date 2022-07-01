@@ -25,7 +25,7 @@ h2{
     font-size: 20px;
 }
 
-#toPageTop:hover:hover {
+#toPageTop:hover {
     background: rgb(88, 88, 255, 0.8);
     color: rgb(160, 0, 240, 0.8);
 }
