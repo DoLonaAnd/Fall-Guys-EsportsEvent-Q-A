@@ -90,6 +90,17 @@ h2{
     width: 55em;
     border-radius: 30px;
     border: dotted 5px #5555FF99;
+    font-size:20px;
+}
+
+#formjoin{
+    margin-left:20px;
+    margin-bottom: -10px;
+    background-color: #FFFFFF88;
+    width: 55em;
+    border-radius: 30px;
+    border: dotted 5px #5555FF99;
+    font-size:20px;
 }
 
 #pagefooter{
@@ -134,6 +145,15 @@ h2{
     background-color: white;
     width:50em;
     border-radius: 7.5px;
+}
+
+.whiteblock:hover{
+    background-color: #9977DD;
+    color:white;
+}
+
+.whiteblock:hover .linkwhite{
+    color:white;
 }
 
 .datas{
