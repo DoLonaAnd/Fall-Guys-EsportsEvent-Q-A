@@ -6,3 +6,29 @@ body{
     margin-left:20px;
     font-size:20px;
 }
+
+#QAindex{
+    margin-bottom: -10px;
+    background-color: #FFFFFF88;
+    width: 55em;
+}
+
+#QA{
+    margin-bottom: -10px;
+    background-color: #FFFFFF88;
+    width: 55em;
+}
+
+.QAindex{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    width:50em;
+}
+
+.QA{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    width:50em;
+}

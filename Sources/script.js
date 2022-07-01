@@ -10,13 +10,15 @@ const qalist = [
 ];
 
 function QAindextemplate(num){
-    let words = '<div id = "QAlist'+num+'"><a href=#QA'+num+'>Q.'+qalist[0][num]+'</a></div>'
+    let words = '<div id = "QAlist'+num+'" class = "QAindex"><a href=#QA'+num+'>Q.'+qalist[0][num]+'</a></div>'
     return words;
 }
 function QAtemplate(num){
     let words1 = '<div id = "Q'+num+'">Q. '+qalist[0][num]+'</div>'
-    ,words2 = '<div id = "A'+num+'">A. '+qalist[1][num]+'</div>';
-    return words1 + words2;
+    ,words2 = '<div id = "A'+num+'">A. '+qalist[1][num]+'</div>'
+    ,unit = '<div id = "QA'+num+'"class = "QA">'+words1+words2+'</div>'
+
+    return unit;
 }
 
 function createQAIndex(){
