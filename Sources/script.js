@@ -1,11 +1,15 @@
 const qalist = [
     [
         ["会場はどこですか？"],
-        ["参加費などはありますか？"]
+        ["参加費などはありますか？"],
+        ["いつ開催されますか？"],
+        ["チーム通話は何を使うんですか？"]
     ],
     [
         ["近畿大学 Eキャンパス E館1階eスポーツアリーナです。"],
-        ["完全無料です！"]
+        ["完全無料です！"],
+        ["8月8日の月曜日です！　14時開始です！"],
+        ["Discordです！"]
     ]
 ];
 
@@ -28,7 +32,7 @@ function indextemplate(num){
     return words;
 }
 function QAindextemplate(num){
-    let words = '<div id = "QAlist'+num+'" class = "QAindex"><a href=#QA'+num+'>Q.'+qalist[0][num]+'</a></div>'
+    let words = '<div id = "QAlist'+num+'" class = "QAindex"><a href=#QA'+num+'>Q. '+qalist[0][num]+'</a></div>'
     return words;
 }
 function QAtemplate(num){
@@ -45,21 +49,18 @@ function createIndex(){
     for(let i=0;i<index[1].length;i++){
         document.getElementById("index").innerHTML += indextemplate(i);
     }
-    document.getElementById("index").innerHTML +="<br>";
 }
 
 function createQAIndex(){
     for(let i=0;i<qalist[1].length;i++){
         document.getElementById("QAindex").innerHTML += QAindextemplate(i);
     }
-    document.getElementById("QAindex").innerHTML +="<br>";
 }
 
 function createQA(){
     for(let i=0;i<qalist[1].length;i++){
         document.getElementById("QA").innerHTML += QAtemplate(i);
     }
-    document.getElementById("QA").innerHTML +="<br>";
 }
 
 

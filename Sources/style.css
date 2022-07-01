@@ -2,11 +2,17 @@ body{
     background-color: #99AAD2;
 }
 
+h2{
+    margin-top: 1px;
+    margin-left: 5px;
+}
+
 #header{
     margin-top: -20px;
     margin-left:-10px;
     margin-right: -10px;
     background-color: #FFFFFF88;
+    border-bottom: dotted 5px #5555FF99;
 }
 
 #alert{
@@ -16,7 +22,7 @@ body{
 
 #pagetitle{
     text-align: center;
-    margin-bottom: -10px;
+    margin-bottom: 0px;
     font-family: Arial;
     font-size:3em;
 }
@@ -25,7 +31,10 @@ body{
     margin-left:20px;
     margin-bottom: -10px;
     background-color: #FFFFFF88;
+    font-size: 20px;
     width: 55em;
+    border-radius: 30px;
+    border: dotted 5px #5555FF99;
 }
 
 #QAlist{
@@ -37,12 +46,16 @@ body{
     margin-bottom: -10px;
     background-color: #FFFFFF88;
     width: 55em;
+    border-radius: 30px;
+    border: dotted 5px #5555FF99;
 }
 
 #QA{
     margin-bottom: -10px;
     background-color: #FFFFFF88;
     width: 55em;
+    border-radius: 30px;
+    border: dotted 5px #5555FF99;
 }
 
 #form{
@@ -50,6 +63,20 @@ body{
     margin-bottom: -10px;
     background-color: #FFFFFF88;
     width: 55em;
+    border-radius: 30px;
+    border: dotted 5px #5555FF99;
+}
+
+#pagefooter{
+    margin-bottom: -20px;
+    margin-left:-10px;
+    margin-right: -10px;
+    background-color: blue;
+}
+
+#datas{
+    margin-left:10px;
+    color:white;
 }
 
 .index{
@@ -78,4 +105,9 @@ body{
     margin-bottom: 10px;
     background-color: white;
     width:50em;
+}
+
+.datas{
+    border-right: solid 1px white;
+    border-length:medium;
 }
