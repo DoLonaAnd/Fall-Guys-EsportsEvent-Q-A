@@ -19,8 +19,8 @@ const index = [
     [
         ["#index"],
         ["#QAlist"],
-        ["#formjoin"]
-        ["#form"],
+        ["#formjoin"],
+        ["#formquestion"],
     ],
     [
         ["目次"],
