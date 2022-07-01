@@ -9,7 +9,7 @@ html{
 
 body{
     /*background-color: #99AAD2;*/
-    background-image: url(../images/thumbnail.png);
+    background-image: url(../Images/thumbnail.png);
     background-repeat: no-repeat;
     background-size: cover 50%;
     background-attachment: fixed;
