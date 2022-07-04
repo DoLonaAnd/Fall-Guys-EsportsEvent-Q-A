@@ -1,27 +1,28 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
-#body{
+#body {
     background-color: #FFF;
 }
 
 
-body{
+body {
     /*background-color: #99AAD2;*/
     background-image: url(../Images/thumbnail.png);
     background-repeat: no-repeat;
     background-size: cover 50%;
     background-attachment: fixed;
-    background-color:rgba(255,255,255,0.2);
-    background-blend-mode:darken;
+    background-color: rgba(255, 255, 255, 0.2);
+    background-blend-mode: darken;
 }
-h2{
+
+h2 {
     margin-top: 1px;
     margin-left: 5px;
 }
 
-#toPageTop{
+#toPageTop {
     position: fixed;
     bottom: 10px;
     right: 10px;
@@ -40,30 +41,54 @@ h2{
     color: rgb(160, 0, 240, 0.8);
 }
 
-#header{
+#header {
     margin-top: -20px;
-    margin-left:-7.5px;
+    margin-left: -7.5px;
     margin-right: -7.5px;
     background-color: #AAAADDDD;
     border-bottom: dotted 5px #5555FF99;
-    height:10em;
+    height: 10em;
 }
 
-#alert{
-    text-align:center;
+#alert {
+    text-align: center;
     margin-bottom: -10px;
 }
 
-#pagetitle{
+#pagetitle {
+    text-shadow:
+        2px 2px 1px white,
+        -2px 2px 1px white,
+        2px -2px 1px white,
+        -2px -2px 1px white,
+        2px 0px 1px white,
+        0px 2px 1px white,
+        -2px 0px 1px white,
+        0px -2px 1px white;
     text-align: center;
-    margin-top:20px;
+    margin-top: 20px;
     margin-bottom: 0px;
     font-family: Arial;
-    font-size:3em;
+    font-size: 3em;
 }
 
-#index{
-    margin-left:20px;
+#pagesubtitle {
+    text-shadow:
+        2px 2px 1px white,
+        -2px 2px 1px white,
+        2px -2px 1px white,
+        -2px -2px 1px white,
+        2px 0px 1px white,
+        0px 2px 1px white,
+        -2px 0px 1px white,
+        0px -2px 1px white;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 30px;
+}
+
+#index {
+    margin-left: 20px;
     margin-bottom: -10px;
     background-color: #7777FF88;
     font-size: 20px;
@@ -72,12 +97,12 @@ h2{
     border: dotted 5px #5555FF99;
 }
 
-#QAlist{
-    margin-left:20px;
-    font-size:20px;
+#QAlist {
+    margin-left: 20px;
+    font-size: 20px;
 }
 
-#QAindex{
+#QAindex {
     margin-bottom: -10px;
     background-color: #7777FF88;
     width: 55em;
@@ -85,7 +110,7 @@ h2{
     border: dotted 5px #5555FF99;
 }
 
-#QA{
+#QA {
     margin-bottom: -10px;
     background-color: #7777FF88;
     width: 55em;
@@ -93,86 +118,88 @@ h2{
     border: dotted 5px #5555FF99;
 }
 
-#form{
-    margin-left:20px;
+#form {
+    margin-left: 20px;
     margin-bottom: -10px;
     background-color: #7777FF88;
     width: 55em;
     border-radius: 30px;
     border: dotted 5px #5555FF99;
-    font-size:20px;
+    font-size: 20px;
 }
 
-#formjoin{
-    margin-left:20px;
+#formjoin {
+    margin-left: 20px;
     margin-bottom: -10px;
     background-color: #7777FF88;
     width: 55em;
     border-radius: 30px;
     border: dotted 5px #5555FF99;
-    font-size:20px;
+    font-size: 20px;
 }
 
-#pagefooter{
+#pagefooter {
     margin-bottom: -20px;
-    margin-left:-7.5px;
+    margin-left: -7.5px;
     margin-right: -7.5px;
     background-color: blue;
 }
 
-#datas{
-    margin-left:10px;
-    color:white;
+#datas {
+    margin-left: 10px;
+    color: white;
 }
 
-.head{
-    background-color: #5555FF;
+.head {
+    /*background-color: #5555FF;*/
+    background: linear-gradient(to top, #5555FF 0, #FFDDFF 50%, #FFDDFF 100%);
     margin-left: -7.5px;
     margin-right: -7.5px;
+
 }
 
-.index{
+.index {
     margin-left: 10px;
     margin-bottom: 10px;
     background-color: white;
-    width:50em;
+    width: 50em;
     border-radius: 7.5px;
 }
 
-.QAindex{
+.QAindex {
     margin-left: 10px;
     margin-bottom: 10px;
     background-color: white;
-    width:50em;
+    width: 50em;
     border-radius: 7.5px;
 }
 
-.QA{
+.QA {
     margin-left: 10px;
     margin-bottom: 10px;
     background-color: white;
-    width:50em;
+    width: 50em;
     border-radius: 7.5px;
 }
 
-.form{
+.form {
     margin-left: 10px;
     margin-bottom: 10px;
     background-color: white;
-    width:50em;
+    width: 50em;
     border-radius: 7.5px;
 }
 
-.whiteblock:hover{
+.whiteblock:hover {
     background-color: #9977DD;
-    color:white;
+    color: white;
 }
 
-.whiteblock:hover .linkwhite{
-    color:white;
+.whiteblock:hover .linkwhite {
+    color: white;
 }
 
-.datas{
+.datas {
     border-right: solid 1px white;
-    border-length:medium;
+    border-length: medium;
 }
