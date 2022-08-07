@@ -139,9 +139,9 @@ function createQA() {
     }
 }
 
-
+/*
 window.onload = function () {
     createIndex();
     createQAIndex();
     createQA();
-}
+}*/
